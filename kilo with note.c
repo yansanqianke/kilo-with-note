@@ -45,7 +45,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <sys/types.h>
-#include <sys/ioctl.h>
+#include <sys/ioctl.h>/*是字符类设备驱动程序中实现对设备控制的接口之一。 
+ioctl是设备驱动程序中对设备的I/O通道进行管理的函数。所谓对I/O通道进行管理，
+就是对设备的一些特性进行控制，例如串口的传输波特率、马达的转速等等。
+https://blog.csdn.net/zhanghui962623727/article/details/118033817*/
 #include <sys/time.h>
 #include <unistd.h>
 #include <stdarg.h>
